@@ -1,0 +1,90 @@
+.why-section {
+  padding: 100px 7%;
+  background: #102b3c;
+  color: white;
+}
+
+.why-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.small-title {
+  color: #fdbb30;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.why-left h2 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin: 15px 0 25px;
+}
+
+.why-left h2 span {
+  color: #fdbb30;
+}
+
+.why-description {
+  color: #c8d2d8;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.check-list {
+  margin-top: 30px;
+  display: grid;
+  gap: 16px;
+}
+
+.check-list div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.check-list svg {
+  color: #fdbb30;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.stats-grid div {
+  padding: 35px 20px;
+  text-align: center;
+  border: 1px solid #315064;
+  border-radius: 12px;
+}
+
+.stats-grid svg {
+  color: #fdbb30;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.stats-grid strong {
+  display: block;
+  font-size: 32px;
+}
+
+.stats-grid p {
+  color: #b7c3ca;
+  margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  .why-content {
+    grid-template-columns: 1fr;
+  }
+
+  .why-left h2 {
+    font-size: 38px;
+  }
+}
